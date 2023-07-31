@@ -90,10 +90,10 @@ BEGIN
 					(52,5, 'RetouchCancelled', GETDATE ()),
 					(53,3, 'StudiosTagAdded', GETDATE ()),
 					(54,3, 'StudioTagRemoved',GETDATE()),
-					(55,6, 'ShootPaused', GETDATE()),
-					(56,6, 'ShootResue', GETDATE()),
-					(57,6, 'ShootStarted', GETDATE()),
-					(58,6, 'ShootTimingSet',GETDATE()),
+					(55,6, 'ShootTimingSet', GETDATE()),
+					(56,6, 'ShootStarted', GETDATE()),
+					(57,6, 'ShootPaused', GETDATE()),
+					(58,6, 'ShootResume',GETDATE()),
 					(59,6, 'ShootInitialised',GETDATE());
 
 WITH  Cte_Date
